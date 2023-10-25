@@ -1,0 +1,635 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(https://files.passeidireto.com/1b9743e5-7c8c-4585-a3d4-7d1b7b318104/bg1.png);
+}
+
+header {
+    background-color: #2900E5;
+    color: black;
+    width: 98.7vw;
+    height: 12vh;
+    display: flex;
+    text-align: center;
+    font-style: italic;
+}
+
+.logo {
+    width: 8%;
+    height: 20%;
+    position: absolute;
+    top: 1%;
+}
+
+.icone {
+    width: 60px;
+    align-items: center;
+}
+
+h1 {
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    top: 2.5%;
+    left: 6%;
+}
+
+h2 {
+    color: white;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: justify;
+    width: 60%;
+    margin: 10px;
+    position: relative;
+    left: 1%;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    width: 60%;
+    padding: 20px;
+    position: relative;
+    left: 18%;
+}
+
+h5 {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+.principal1 {
+    margin: 30px;
+}
+
+.principal2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.forma_1 {
+    background-color: #0B0040;
+    font-size: 20px;
+    font-weight: 550;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 75vw;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.473);
+}
+
+.forma_2 {
+    background-color: #0B0040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-top: 3%;
+    width: 75vw;
+    height: 50vh;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.473);
+}
+
+.forma_alt1 {
+    background-color: #0B0040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-top: 3%;
+    width: 75vw;
+    height: 80vh;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.473);
+}
+
+.exemplo_img {
+    margin-top: 3%;
+    background-color: #0B0040;
+    width: 75vw;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.473);
+}
+
+.legenda {
+    width: 40vw;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    position: relative;
+    left: 22%;
+}
+
+.local_img {
+    display: flex;
+    width: 20vw;
+    position: relative;
+    left: 19%;
+}
+
+.escolha {
+    background-color: #0B0040;
+    margin-top: 3%;
+    width: 75vw;
+    height: 60vh;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.473);
+}
+
+.regular_img {
+    width: 20%;
+    display: flex;
+    position: relative;
+    top: 5%;
+    left: 17%;
+}
+
+.escolha_B {
+    display: flex;
+    position: relative;
+    left: 12%;
+}
+
+#pentagono {
+    display: none;
+}
+
+#hexagono {
+    display: none;
+}
+
+#heptagono {
+    display: none;
+}
+
+p {
+    font-size: 20px;
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.imagem {
+    width: 100%;
+    padding: 20px;
+}
+
+.imagem2 {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.imagem3 {
+    width: 100%;
+}
+
+.calculo_img {
+    width: 20vw;
+    margin-left: 5%;
+}
+
+.calculo_img2 {
+    width: 20vw;
+    margin-left: 5%;
+}
+
+.calculo {
+    font-size: 20px;
+    font-weight: 550;
+    text-align: justify;
+    color: white;
+    width: 70%;
+    padding: 5px;
+}
+
+.texto1 {
+    font-size: 20px;
+    width: 93%;
+}
+
+.area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+label {
+    font-size: 20px;
+    display: flex;
+    width: 35%;
+    margin-left: 3%;
+    padding: 5px;
+}
+
+input {
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #2E00FF;
+    color: black;
+    width: 32%;
+    margin-left: 3%;
+    margin-top: 5px;
+}
+
+span {
+    background-color: #2E00FF;
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+    width: 32%;
+    margin-left: 3%;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #2E00FF;
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+    width: 9vw;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+footer {
+    background-color: #2E00FF;
+    height: 5vh;
+}
+
+@media (max-width: 1366px) {
+    header {
+        width: 100vw;
+        height: 12vh;
+    }
+
+    .forma_2 {
+        height: 50vh;
+    }
+
+    .forma_alt1 {
+        height: 60vh;
+    }
+
+    .escolha {
+        height: 60vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        width: 100vw;
+        height: 10vh;
+    }
+
+    h1 {
+        position: absolute;
+        top: 2.5%;
+        left: 7%;
+    }
+
+    .forma_2 {
+        height: 50vh;
+    }
+
+    .escolha {
+        height: 45vh;
+    }
+
+    .botao {
+        position: relative;
+        left: 1%;
+    }
+
+}
+
+@media (max-width: 767px) {
+    header {
+        width: 100vw;
+        height: 10vh;
+    }
+
+    h1 {
+        font-size: 26px;
+        position: absolute;
+        top: 2.5%;
+        left: 7%;
+    }
+
+    .icone {
+        width: 45px;
+    }
+
+    .local_img {
+        width: 18vw;
+    }
+
+    .legenda {
+        font-size: 18px;
+    }
+
+    .forma_2 {
+        height: 45vh;
+    }
+
+    .forma_alt1 {
+        height: 70vh;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .botao{
+        width: 10vw;
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .texto1 {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 420px) {
+    header {
+        width: 100vw;
+        height: 10vh;
+    }
+
+    h1 {
+        font-size: 22px;
+        position: absolute;
+        top: 2.5%;
+        left: 12%;
+    }
+
+    .icone {
+        width: 40px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 2%;
+    }
+
+    .forma_1 {
+        width: 85vw;
+    }
+
+    .escolha {
+        width: 85vw;
+        height: 35vh;
+        margin-top: 5%;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .regular_img {
+        width: 20vw;
+        position: relative;
+        left: 6%;
+    }
+
+    .botao{
+        width: 16vw;
+        font-size: 10px;
+        position: relative;
+        left: -10%;
+    }
+
+    .forma_alt1 {
+        width: 85vw;
+        margin-top: 8%;
+    }
+
+
+    .exemplo_img {
+        width: 85vw;
+        margin-top: 8%;
+    }
+
+    .imagem {
+        padding: 15px;
+    }
+
+    .local_img {
+        width: 18vw;
+    }
+
+    .legenda {
+        font-size: 12px;
+    }
+
+    .forma_2 {
+        width: 85vw;
+        height: 35vh;
+        margin-top: 8%;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
+        margin: 3px;
+        padding: 3px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .texto1 {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    input {
+        font-size: 12px;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 12px;
+        height: 5vh;
+    }
+}
+
+@media (max-width: 320px) {
+    header {
+        width: 100vw;
+        height: 10vh;
+    }
+
+    h1 {
+        font-size: 20px;
+        position: absolute;
+        top: 2.5%;
+        left: 14%;
+    }
+
+    .icone {
+        width: 40px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 2%;
+    }
+
+    .forma_1 {
+        width: 85vw;
+    }
+
+    .exemplo_img {
+        width: 85vw;
+        margin-top: 8%;
+    }
+
+    .imagem {
+        padding: 13px;
+    }
+
+    .local_img {
+        width: 17vw;
+    }
+
+    .legenda {
+        font-size: 10px;
+    }
+
+    .escolha {
+        margin-top: 8%;
+        width: 85vw;
+        height: 35vh;
+    }
+
+    h4 {
+        font-size: 14px;
+        position: relative;
+        left: 14%;
+    }
+
+    .regular_img {
+        width: 20vw;
+        position: relative;
+        left: 4%;
+    }
+
+    .botao{
+        width: 18vw;
+        font-size: 10px;
+        position: relative;
+        left: -13%;
+        margin-top: 10%;
+    }
+
+    .forma_2 {
+        width: 85vw;
+        height: 35vh;
+        margin-top: 8%;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 10px;
+        margin: 3px;
+        padding: 3px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    .texto1 {
+        font-size: 10px;
+    }
+
+    button {
+        font-size: 10px;
+    }
+
+    label {
+        font-size: 10px;
+    }
+
+    input {
+        font-size: 10px;
+    }
+
+    span {
+        font-size: 10px;
+    }
+
+    footer {
+        font-size: 8px;
+        height: 8vh;
+    }
+}

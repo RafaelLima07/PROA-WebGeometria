@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #2900E5;
+    color: black;
+    width: 98.7vw;
+    height: 12vh;
+    display: flex;
+    text-align: center;
+    font-style: italic;
+}
+
+.logo {
+    width: 8%;
+    height: 50%;
+    position: absolute;
+    top: 1%;
+}
+
+.icone {
+    width: 60px;
+}
+
+h1 {
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    top: 2.5%;
+    left: 6%;
+}
+
+body {
+    background-image: url(https://files.passeidireto.com/1b9743e5-7c8c-4585-a3d4-7d1b7b318104/bg1.png);
+}
+
+.apresentacao {
+    background-color: #0B0040;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98.7vw;
+    height: 70vh;
+    margin-top: 40px;
+}
+
+.apresentacao_2 {
+    text-align: justify;
+    width: 100%;
+    padding: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #E7E2DA;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+h3 {
+    font-size: 45px;
+    color: white;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+.texto_1 {
+    font-size: 30px;
+    font-weight: 550;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.fotos {
+    width: 28vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+
+.fotos_2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+
+.principal {
+    margin: 30px;
+}
+
+.principal_2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    background-color: #2900E5;
+    width: 280px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+    padding: 8px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.473);
+}
+
+.formas {
+    background-color: #0B0040;
+    width: 270px;
+    height: 390px;
+}
+
+.descricao {
+    background-color: #0B0040;
+    width: 270px;
+    height: 180px;
+    flex: 1 1 auto;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+    text-align: justify;
+    padding: 8px;
+}
+
+.botao {
+    width: 10%;
+    position: relative;
+    left: 27%;
+    margin-top: 18%;
+}
+
+.botao_2 {
+    width: 10%;
+    position: relative;
+    left: 27%;
+    margin-top: 7%;
+}
+
+button {
+    background-color: #2E00FF;
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+    width: 9vw;
+}
+
+.button2 {
+    background-color: #2E00FF;
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+    width: 9vw;
+    position: relative;
+    left: 27%;
+    margin-top: 7%;
+}
+
+footer {
+    background-color: #2900E5;
+    height: 30px;
+}
+
+@media (max-width: 1366px) {
+    header {
+        width: 98.7vw;
+        height: 12vh;
+    }
+
+    .apresentacao {
+        width: 98.7vw;
+        height: 70vh;
+    }
+
+    .fotos_2 {
+        width: 100%;
+    }
+
+    h3 {
+        width: 55%;
+    }
+
+    .texto_1 {
+        width: 55%;
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        width: 100vw;
+        height: 8vw;
+    }
+
+    h1 {
+        position: absolute;
+        left: 7%;
+        top: 2.5%;
+    }
+
+    .apresentacao {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .fotos_2 {
+        width: 100%;
+    }
+
+    h3 {
+        width: 55%;
+        font-size: 32px;
+    }
+
+    .texto_1 {
+        width: 55%;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        width: 100vw;
+        height: 10vw;
+    }
+
+    h1 {
+        position: absolute;
+        left: 10%;
+        top: 2.5%;
+    }
+
+    .logo {
+        position: absolute;
+        top: 2%;
+        left: 2%;
+    }
+
+    .apresentacao {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    h3 {
+        width: 55%;
+        font-size: 24px;
+    }
+
+    .texto_1 {
+        width: 55%;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .principal_2 {
+        width: 100%;
+    }
+
+    .conteudo {
+        width: 240px;
+        height: 360px;
+    }
+
+    .formas {
+        width: 230px;
+        height: 350px;
+    }
+
+    .descricao {
+        width: 230px;
+        height: 140px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .botao {
+        position: relative;
+        left: 35%;
+        margin-top: 10%;
+    }
+
+    .botao_2 {
+        position: relative;
+        left: 33%;
+        margin-top: 0.5%;
+    }
+
+    button {
+        font-size: 14px;
+        width: 9vw;
+    }
+
+    .button2 {
+        font-size: 14px;
+        width: 9vw;
+    }
+
+}
+
+@media (max-width: 420px) {
+    header {
+        width: 100vw;
+        height: 16vw;
+    }
+
+    h1 {
+        font-size: 26px;
+        position: absolute;
+        top: 2.5%;
+        left: 15%;
+    }
+
+    .icone {
+        width: 50px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 1%;
+        left: 2%;
+    }
+
+    .apresentacao {
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .fotos_2 {
+        padding: 10px;
+    }
+
+    h3 {
+        width: 60%;
+        font-size: 14px;
+        padding: 1px;
+    }
+
+    .texto_1 {
+        width: 60%;
+        font-size: 12px;
+        padding: 1px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .principal_2 {
+        width: 100%;
+    }
+
+    .conteudo {
+        width: 200px;
+        height: 320px;
+    }
+
+    .formas {
+        width: 195px;
+        height: 315px;
+    }
+
+    .fotos_4 {
+        width: 100%;
+        height: 50%;
+    }
+
+    .descricao {
+        width: 195px;
+        height: 100px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .botao {
+        width: 10%;
+        position: relative;
+        left: 34%;
+        top: 15%;
+    }
+
+    .botao_2 {
+        width: 10%;
+        position: relative;
+        left: 32%;
+        top: 8%;
+    }
+
+    button {
+        font-size: 14px;
+        width: 15vw;
+    }
+
+    .button2 {
+        font-size: 14px;
+        width: 15vw;
+    }
+
+}
+
+@media (max-width: 320px) {
+    header {
+        width: 100vw;
+        height: 16vw;
+    }
+
+    h1 {
+        font-size: 22px;
+        position: absolute;
+        top: 2.5%;
+        left: 15%;
+    }
+
+    .icone {
+        width: 40px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 1%;
+        left: 2%;
+    }
+
+    .apresentacao {
+        width: 100vw;
+        height: 24vh;
+    }
+
+    .fotos_2 {
+        width: 100%;
+        padding: 5px;
+    }
+
+    h3 {
+        width: 70%;
+        font-size: 12px;
+    }
+
+    .texto_1 {
+        width: 70%;
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .principal_2 {
+        width: 100%;
+    }
+
+    .conteudo {
+        width: 190px;
+        height: 310px;
+    }
+
+    .formas {
+        width: 185px;
+        height: 305px;
+    }
+
+    .fotos_4 {
+        width: 100%;
+        height: 50%;
+    }
+
+    .descricao {
+        width: 185px;
+        height: 100px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .botao {
+        width: 12%;
+        position: relative;
+        left: 37%;
+        top: 20%;
+    }
+
+    .botao_2 {
+        width: 12%;
+        position: relative;
+        left: 35%;
+        top: 20%;
+    }
+
+    button {
+        font-size: 12px;
+        width: 15vw;
+    }
+
+    .button2 {
+        font-size: 12px;
+        width: 15vw;
+    }
+
+}

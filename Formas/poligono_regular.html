@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style-formas/style-formas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://img.icons8.com/external-prettycons-solid-prettycons/60/000000/external-geometry-astrology-and-symbology-prettycons-solid-prettycons.png" type="image/x-icon">
+
+    <title>Polígono Regular com N Lados</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="/JavaScript/Projeto_Aventureiros-das-formas-probidas/index.html" target="_blank"><img class="icone"
+                src="https://img.icons8.com/external-prettycons-solid-prettycons/60/000000/external-geometry-astrology-and-symbology-prettycons-solid-prettycons.png"
+                alt="external-geometry-astrology-and-symbology-prettycons-solid-prettycons" /></a>
+        </div>
+        <h1>WebGeometria</h1>
+    </header>
+
+    <main>
+        <div class="principal1">
+            <div class="principal2">
+
+                <div class="forma_1">
+                    <h2>Polígono Regular com N Lados</h2>
+
+                    <p>Polígonos regulares são figuras geométricas com "n" lados, onde "n" pode ser qualquer número
+                        inteiro. Eles se destacam por sua simetria e uniformidade, tornando-as verdadeiras estrelas
+                        entre as formas geométricas. Desde triângulos até polígonos com um grande número de lados, essas
+                        figuras geométricas têm um único apelo e são como as celebridades do mundo das formas.
+                    </p>
+
+                    <p>Uma característica fundamental dos polígonos regulares é que todos os seus lados têm o mesmo
+                        comprimento, e os ângulos internos são iguais entre si. Quanto mais lados um polígono tiver,
+                        mais se assemelhará a um círculo, com ângulos mais suaves e arredondados. Triângulos, quadrados,
+                        pentágonos e hexágonos são alguns exemplos de polígonos regulares, cada um com seu próprio
+                        charme.</p>
+
+                    <p>Os Polígonos Regulares desempenham um papel importante em diversas áreas, desde a arte e o design
+                        de azulejos até a arquitetura de edifícios famosos. Até mesmo a base da Torre Eiffel é modelada
+                        após um dodecágono, com seus 12 lados. Além disso, essas formas geométricas são comuns em
+                        estádios esportivos, com hexágonos e pentágonos formando padrões icônicos.</p>
+
+                    <p>Uma das melhores coisas sobre os polígonos regulares é que você pode ter um com qualquer número
+                        de lados que desejar. Se você é fã de números pares, pode desenhar um octógono. Se preferir
+                        números impares, o eneágono é uma ótima opção. E se você quiser explorar o mundo dos polígonos
+                        com um grande número de lados, como 1000 ou 10.000, não há limites. Todos esses polígonos são
+                        igualmente cativantes e merecem seu lugar no mundo das formas geométricas.</p>
+                </div>
+
+                <div class="exemplo_img">
+                    <h2 class="legenda">Alguns exemplos de como os poligonos estão presentes em algumas coisas.
+                    </h2>
+                    <div class="local_img">
+                        <img class="imagem" src="Imagens-formas/poligono_1.jpg" alt="">
+                        <img class="imagem" src="Imagens-formas/polígono_2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="escolha">
+                    <h4>Escolha um Polígono</h3>
+                    <div class="regular_img">
+                        <img class="imagem2" src="Imagens-formas/pentagono.jpg"  alt="">
+                        <img class="imagem2" src="Imagens-formas/hexagono.jpg"  alt="">
+                        <img class="imagem2"  src="Imagens-formas/heptagono.jpg"  alt="">
+                    </div>
+                    <div class="escolha_B">
+                        <button class="botao" type="button" id="calcular-btn" onclick="escolha('pentagono')" >Pentágono</button>
+                        <button class="botao" type="button" id="calcular-btn" onclick="escolha('hexagono')">Hexágono</button>
+                        <button class="botao" type="button" id="calcular-btn" onclick="escolha('heptagono')">Heptágono</button>
+                    </div>
+                </div>
+
+                <div id="pentagono">
+                    <div class="forma_2">
+                        <div class="calculo_img">
+                            <img class="imagem3" src="Imagens-formas/pentagono.jpg" alt="">
+                        </div>
+
+                        <div class="calculo">
+                            <h3>Calculo da área</h3>
+
+                            <p class="texto1">A área do pentágono é calculada multiplicando o perímetro do polígono pelo seu apótema.</p>
+
+                            <div class="area">
+                                <label for="lado_P">Lado:</label>
+                                <input type="number" id="lado_P" required>
+
+                                <label for="apotema_P">Apótema:</label>
+                                <input type="number" id="apotema_P" required>
+
+                                <label for="resultado">Área do Pentágono:</label>
+                                <span id="resultado">Resultado</span>
+
+                                <div>
+                                    <button type="button" id="calcular-btn" onclick="pentagono_Area">=</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="hexagono">
+                    <div class="forma_2">
+                        <div class="calculo_img">
+                            <img class="imagem3" src="Imagens-formas/hexagono.jpg" alt="">
+                        </div>
+
+                        <div class="calculo">
+                            <h3>Calculo da área</h3>
+
+                            <p class="texto1">Podemos encontrar sua área multiplicando três por seu apótema e pelo
+                                comprimento de um de seus lados.</p>
+
+                            <div class="area">
+                                <label for="lado_H">Lado:</label>
+                                <input type="number" id="lado_H" required>
+
+                                <label for="apotema_H">Apótema:</label>
+                                <input type="number" id="apotema_H" required>
+
+                                <label for="resultado_H">Área do Hexágono:</label>
+                                <span id="resultado_H">Resultado</span>
+
+                                <div>
+                                    <button type="button" id="calcular-btn" onclick="hexagono_Area()">=</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="heptagono">
+                    <div class="forma_2">
+                        <div class="calculo_img">
+                            <img class="imagem3" src="Imagens-formas/heptagono.jpg" alt="">
+                        </div>
+
+                        <div class="calculo">
+                            <h3>Calculo da área</h3>
+
+                            <p class="texto1">Para o cálculo da área, devemos multiplicar a base pela altura, dividindo o valor obtido por dois.</p>
+
+                            <div class="area">
+                                <label for="base_HP">Base:</label>
+                                <input type="number" id="base_HP" required>
+
+                                <label for="altura_HP">Altura:</label>
+                                <input type="number" id="altura_HP" required>
+
+                                <label for="resultado_HP">Área do Heptágono:</label>
+                                <span id="resultado_HP">Resultado</span>
+
+                                <div>
+                                    <button type="button" id="calcular-btn" onclick="heptagono_Area()">=</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h5> &copy; 2023 WebGeometria. Todos os direitos reservados. </h5>
+    </footer>
+
+    <script src="/JavaScript/Projeto_Aventureiros-das-formas-probidas/WebGeometria.JS/web_geometria.js"></script>
+</body>
+
+</html>
