@@ -3,7 +3,7 @@
 
 Proposto pelo professor Gabriel Augusto, do Instituto Proa, à minha tarefa era desenvolver um sites sobre formas geométricas onde o usuário poderia escolher uma forma e realizar o calculo da sua área.
 
-## Conteúdo Prinncipal
+## Conteúdo principal
 
 ![Web 1](https://github.com/RafaelLima07/PROA-WebGeometria/blob/main/assets/Principal-1.png)
 
